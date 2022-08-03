@@ -1,0 +1,6 @@
+---
+- name: Install Multipass Cluster
+  hosts: all
+  roles:
+    - role: install
+    - role: cluster

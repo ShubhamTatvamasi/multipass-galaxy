@@ -1,0 +1,3 @@
+---
+- import_tasks: install-multipass.yml
+  become: yes
